@@ -1,0 +1,65 @@
+body, html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: #f1f1f1;
+}
+
+header .container {
+  height: 110px;
+  padding: 10px;
+  border-radius: 10px;
+}
+
+a {
+  display: block;
+}
+
+.header h4 {
+  line-height: 0.9;
+}
+
+.img-item {
+  display: block;
+  border: 3px solid red;
+  max-width: 100%;
+  height: 80px;
+  transition: all 0.5s ease-in-out;
+}
+
+.img-item:hover {
+  transform: rotate(360deg);
+}
+
+.jumbotron {
+  background-color: #9a2f2d;
+}
+
+footer .container {
+  height: 90px;
+  padding: 10px;
+  border: 1px solid #d9d9d9;
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: #fafafa;
+  border-bottom: none;
+}
+
+.modal-open {
+	overflow: auto;
+}
+
+.modal-backdrop {
+	background-color: #fff;
+}
+
+.modal-dialog {
+	margin-top: 100px;
+}
+
+.modal-content {
+	border: none;
+	background-color: transparent;
+}

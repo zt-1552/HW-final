@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="css/style.css">
+  <title>Блог itProger</title>
+</head>
+<body>
+  <header class="header mt-5">
+    <div class="navbar navbar-default" role="navigation">
+      <div class="container bg-white shadow-sm">
+        <div class="col-4">
+            <div class="navbar-header d-flex align-items-center">
+              <a href="#">
+                <img src="img/logo.png" alt="Блог itProger" class="rounded-circle img-item">
+              </a>
+              <h4 class="mb-0 ml-3">itProger<br><small class="text-danger">Blog</small></h4>
+            </div>
+        </div>
+        <div class="col-3 offset-1 text-left">
+            <form class="navbar-form" role="search">
+              <div class="form-group mb-0">
+                <input type="search" id="search" class="form-control" placeholder="Поиск"/>
+              </div>
+            </form>
+        </div>
+        <div class="col-4">
+            <div class="navbar-nav flex-row justify-content-end">
+              <a href="#" class="btn btn-light border border-secondary mr-2">Главная</a>
+              <a href="#" class="btn btn-light border border-secondary mr-2">Статьи</a>
+              <a href="#" class="btn btn-light border border-secondary">Контакты</a>
+            </div>
+        </div>
+        </div>
+    </div>
+    </div>
+  </header>
+  <article>
+    <div class="container">
+      <div class="row mt-5">
+        <div class="col-12 p-0">
+          <div class="jumbotron jumbotron-fluid text-white p-0">
+            <div class="row">
+              <div class="col-6 pt-4 pl-5 pb-5">
+                  <h2 class="display-4">3 основные сферы применения языка Python</h2>
+                  <p class="lead my-4">До начала активного изучения любого языка программирования правильно было бы задуматься о сферах его применения. Мы расскажем про 3 самые популярные сферы применения языка Python.</p>
+                  <a href="#" class="btn btn-danger">Читать дальше</a>
+              </div>
+              <div class="col-6 pt-5 pr-5">
+                <img class="img-thumbnail" src="img\rust_lang_1.png" alt="Mozilla">
+              </div>
+            </div>
+          </div>
+        </div>
+    </div>
+      <div class="row mb-5">
+        <div class="col-8">
+          <h2>Новости</h2>
+          <div class="row" id="news">
+            <div class="col-6 mb-4 d-flex align-items-stretch">
+              <div class="card">
+                <img class="card-img-top" src="img\1534765244.jpg" alt="">
+                <div class="card-body pr-5">
+                  <h5 class="card-title">Сравнение движков: Unreal Engine 4 против Unity 5</h5>
+                  <p class="card-text">Выбрать движок дело не простое, а особенно когда оба очень хороши. В статье мы проведем сравнение двух программ и выясним какой движок использовать именно Вам!</p>
+                  <a href="#" class="btn btn-warning">Читать далее</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 mb-4 d-flex align-items-stretch">
+              <div class="card">
+                <img class="card-img-top" src="img\1534137690.jpg" alt="">
+                <div class="card-body pr-5">
+                  <h5 class="card-title">7 девушек айтишниц из фильмов и сериалов</h5>
+                  <p class="card-text">Много ли вы знаете фильмов и сериалов, где главные персонажы это девушки программисты? Мы подобрали 7 фильмов с такой концепцией.</p>
+                  <a href="#" class="btn btn-warning">Читать далее</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 mb-4 d-flex align-items-stretch">
+              <div class="card">
+                <img class="card-img-top" src="img\1532948245.jpg" alt="">
+                <div class="card-body pr-4">
+                  <h5 class="card-title">11 полезных инструментов для веб-разработчика</h5>
+                  <p class="card-text">Разработчики постоянно пытаются сделать свою жизнь проще или расширить собственные возможности. Мы подготовили 11 инструментов, которые это обеспечат.</p>
+                  <a href="#" class="btn btn-warning">Читать далее</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-6 mb-4 d-flex align-items-stretch">
+              <div class="card">
+                <img class="card-img-top" src="img\1534139040.jpg" alt="">
+                <div class="card-body pr-5">
+                  <h5 class="card-title">Что такое Deep Learning? Как работает глубокое обучение?</h5>
+                  <p class="card-text">Как работает глубокое обучение и что оно из себя представляет? В ходе статьи мы расскажем про Deep Learning и разберемся с его ключевыми понятиями.</p>
+                  <a href="#" class="btn btn-warning">Читать далее</a>
+                </div>
+              </div>
+            </div>
+
+          </div>
+          <div class="loading text-center" id="loading">
+            <button type="button" id="button_loading" class="btn btn-danger">Подгрузить больше</button>
+          </div>
+        </div>
+        <div class="col-4">
+          <h2 class="ml-2">Анонсы</h2>
+          <p class="p-3 mb-3 rounded bg-light">Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+          <div class="card bg-info text-white">
+            <img class="img-thumbnail m-3" src="img\1534139040.jpg" alt="">
+            <div class="card-body pr-5">
+              <p class="card-text">Etiam porta sem malesuada magna mollis euismod. Cras mattis consectetur purus sit amet fermentum. Aenean lacinia bibendum nulla sed consectetur.</p>
+              <a href="#" class="btn btn-light">Читать далее</a>
+            </div>
+          </div>
+        </div>
+      </div>
+  </article>
+  <footer>
+    <div class="container d-flex align-items-center justify-content-center">
+      <p class="font-weight-bold m-0">Все права защищены ©</p>
+    </div>
+  </footer>
+
+  <div id="modal-window" class="modal fade">
+      <div class="modal-dialog modal-lg">
+        <div class="modal-content d-flex align-items-start">
+          <h2 class="text-danger mb-3 mt-5">Форма поиска</h2>
+          <input type="search" id="search-modal" class="form-control" placeholder="Поиск" autocomplete="off">
+          <button class="btn btn-danger mt-4 justify-content-start align-items-start" data-dismiss="modal">Закрыть</button>
+        </div>
+      </div>
+    </div>
+
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="js/scripts.js"></script>
+</body>
+</html>
