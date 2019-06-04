@@ -70,7 +70,7 @@ $("button#button_loading").on('click', function() {
 })
 
 function showCard (elem) {
-  var contentShow = $('<div>').attr({'class':'col-6 mb-4 d-flex align-items-stretch'});
+  var contentShow = $('<div>').attr({'class':'col-sm-6 col-sx-12 mb-4 d-flex align-items-stretch'});
   contentShow.html('<div class="card"><img class="card-img-top" src="' + elem.image + '" alt=""><div class="card-body pr-5 d-flex flex-column justify-content-start align-items-start"><h5 class="card-title">' + elem.title + '</h5><p class="card-text">' + elem.text_card + '</p><a href="#" class="btn btn-warning mt-auto">Читать далее</a></div></div>');
   $('#news').append(contentShow);
 }
